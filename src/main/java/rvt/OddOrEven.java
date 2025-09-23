@@ -1,0 +1,18 @@
+package rvt;
+
+import java.util.Scanner;
+
+public class OddOrEven {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Ievadi skaitli:");
+
+        int number = reader.nextInt();
+        if (number % 2 == 0) {
+            System.out.println("Para skaitlis"); 
+        } else {
+            System.out.println("Nepara skaitlis");
+        }
+        reader.close();
+    }
+}
